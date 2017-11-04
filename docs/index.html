@@ -62,15 +62,17 @@
         border-spacing: 0px;
       }
 
-      th {
+      caption, th {
         color: white;
         background-color: darkred;
       }
 
-      th,
+      th, td {
+        padding: 3px 15px;
+      }
+
       td {
         text-align: left;
-        padding: 3px 15px;
       }
 
       h1 {
@@ -94,44 +96,55 @@
         <a href="#school">School</a>
       </li>
     </ul>
-    <h1>The life and times of Beau</h1>
-    <p>
-      <img src="images/ProfilePic_small.jpg" alt="Beau's face" width="30%"
-        align="right"> I am so happy to eat chicken, it just tastes so
-      <em>gosh-darned good!</em>
-      <p>
-        At right are some chicks, striving for tenderness and juiciness.
-        <p>
-          There are many proven health benefits to eating chicken including:
-          <table>
-            <tr>
-              <th>Benefit</th>
-              <th>Verified</th>
-            </tr>
-            <tr>
-              <td>Calories</td>
-              <td>True</td>
-            </tr>
-            <tr>
-              <td>Endorphins</td>
-              <td>True</td>
-            </tr>
-            <tr>
-              <td>Sleeping late</td>
-              <td>True</td>
-            </tr>
-            <tr>
-              <td>Ice Cream</td>
-              <td>Under investigation</td>
-            </tr>
-            <tr>
-              <td>Energy Neutral</td>
-              <td>False</td>
-            </tr>
-          </table>
-          <p>
-            There are some lady chickens
-            <a href=https://upload.wikimedia.org/wikipedia/commons/5/50/Female_pair.jpg>here</a>.
+    <h1>The life and times of Beau Harrison</h1>
+    <section id="home">
+      <img src="images/ProfilePic_small.jpg" alt="Beau's face" width="30%" align="right">
+      Beau has an undergraduate degree is physics from Henderson State University. He is currently a Senior Accelerator Operator at Fermi National Accelerator Labortory. He is also pursing a degree in Public Policy from the Harris School at the University of Chicago.
+    </section>
+    <section id="edu">
+      <h2>Eduation</h2>
+      <p>While attending Henderson, Beau worked on classifying cataclysmic variable stars using a remote telescope. From the skills learned from this exercise he and his peers wrote middle school curriculum to guide classes in observing the night sky using a remote telescope.</p>
+    </section>
+    <section id="work">
+      <h2>Work</h2>
+      <p>Beau started work at Fermilab in 2011. During his tenure he has lead a group in improving training and access to accelerator knowledge. He has worked with an administrative baord in implementing the Proton Improvement Plan. He is now working to implement Machine Protection Systems for new accelerator projects.</p>
+    </section>
+    <section id="school">
+      <h2>School</h2>
+      <p> Beau is in his last year at Harris and is pursing a certificate in political campaigns.</p>
+      <table>
+        <!-- I couldn't think of a worthwhile table to include -->
+        <caption><em>Electives</em></caption>
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Calories</td>
+            <td>True</td>
+          </tr>
+          <tr>
+            <td>Endorphins</td>
+            <td>True</td>
+          </tr>
+          <tr>
+            <td>Sleeping late</td>
+            <td>True</td>
+          </tr>
+          <tr>
+            <td>Ice Cream</td>
+            <td>Under investigation</td>
+          </tr>
+          <tr>
+            <td>Energy Neutral</td>
+            <td>False</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </body>
 
 </html>
